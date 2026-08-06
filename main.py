@@ -46,6 +46,7 @@ class PixivPlugin(Star):
 
     def __init__(self, context: Context, config: Any = None):
         super().__init__(context, config)
+        self.config = config
 
     def _cfg(self) -> dict[str, Any]:
         return self.config or {}
