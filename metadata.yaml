@@ -3,3 +3,7 @@ desc: Pixiv 插画解析：识别 pixiv 链接，自动下载并发送作品图�
 author: higashitaniyume
 version: 1.0.0
 repo: https://github.com/higashitaniyume/astrbot_plugin_hikari_pixiv
+tags:
+  - 插画
+  - 下载
+  - 链接解析
