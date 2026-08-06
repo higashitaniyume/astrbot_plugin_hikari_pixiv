@@ -11,5 +11,10 @@
   "allow_r18": { "type": "bool", "default": false, "description": "允许发送 R-18 作品" },
   "send_link_info": { "type": "bool", "default": true, "description": "发送图片前先发送作品信息" },
   "cache_dir": { "type": "string", "default": "", "description": "图片缓存目录（留空用系统临时目录）" },
-  "blocked_groups": { "type": "list", "default": [], "description": "不自动解析的群号列表" }
+  "blocked_groups": {
+    "type": "list",
+    "default": [],
+    "items": { "type": "string", "description": "群号" },
+    "description": "不自动解析的群号列表"
+  }
 }
