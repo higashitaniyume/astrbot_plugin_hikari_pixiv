@@ -1,0 +1,15 @@
+{
+  "enabled": { "type": "bool", "default": true, "description": "启用插件" },
+  "cookie": {
+    "type": "string",
+    "default": "",
+    "description": "Pixiv Cookie（登录 pixiv.net 后复制，至少需要 PHPSESSID）"
+  },
+  "proxy": { "type": "string", "default": "", "description": "代理地址（可选，如 http://127.0.0.1:7890）" },
+  "max_send": { "type": "int", "default": 6, "description": "单次最多发送的图片数" },
+  "max_file_mb": { "type": "int", "default": 25, "description": "单张图片大小上限（MB），超过降级到压缩图" },
+  "allow_r18": { "type": "bool", "default": false, "description": "允许发送 R-18 作品" },
+  "send_link_info": { "type": "bool", "default": true, "description": "发送图片前先发送作品信息" },
+  "cache_dir": { "type": "string", "default": "", "description": "图片缓存目录（留空用系统临时目录）" },
+  "blocked_groups": { "type": "list", "default": [], "description": "不自动解析的群号列表" }
+}

@@ -1,0 +1,5 @@
+name: hikari_pixiv
+desc: Pixiv 插画解析：识别 pixiv 链接，自动下载并发送作品图片（支持多图/R-18 拦截）
+author: higashitaniyume
+version: 1.0.0
+repo: https://github.com/higashitaniyume/astrbot_plugin_hikari_pixiv
